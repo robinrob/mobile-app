@@ -1,0 +1,233 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jump', '-g' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose cache add [ 'jump', null ]
+5 verbose cache add name=undefined spec="jump" args=["jump",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jump',
+6 verbose parsed url   path: 'jump',
+6 verbose parsed url   href: 'jump' }
+7 silly lockFile 271e9a56-jump jump
+8 verbose lock jump /Users/msl/.npm/271e9a56-jump.lock
+9 silly lockFile 271e9a56-jump jump
+10 silly lockFile 271e9a56-jump jump
+11 verbose addNamed [ 'jump', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile a18776b1-jump jump@
+14 verbose lock jump@ /Users/msl/.npm/a18776b1-jump.lock
+15 silly addNameRange { name: 'jump', range: '*', hasData: false }
+16 verbose url raw jump
+17 verbose url resolving [ 'https://registry.npmjs.org/', './jump' ]
+18 verbose url resolved https://registry.npmjs.org/jump
+19 info trying registry request attempt 1 at 10:30:06
+20 http GET https://registry.npmjs.org/jump
+21 http 200 https://registry.npmjs.org/jump
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Fri, 25 Jul 2014 17:30:07 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"B1EOULLV4W6OAFI5NQBW6KGRG"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '13444',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-sjc3123-SJC',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1406309406.936079,VS0,VE433',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'jump', range: '*', hasData: true }
+24 silly addNameRange versions [ 'jump',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1' ] ]
+25 verbose addNamed [ 'jump', '0.1.1' ]
+26 verbose addNamed [ '0.1.1', '0.1.1' ]
+27 silly lockFile 4d35a8c2-jump-0-1-1 jump@0.1.1
+28 verbose lock jump@0.1.1 /Users/msl/.npm/4d35a8c2-jump-0-1-1.lock
+29 silly lockFile c36a6605-ry-npmjs-org-jump-jump-0-1-1-tgz https://registry.npmjs.org/jump/-/jump-0.1.1.tgz
+30 verbose lock https://registry.npmjs.org/jump/-/jump-0.1.1.tgz /Users/msl/.npm/c36a6605-ry-npmjs-org-jump-jump-0-1-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/jump/-/jump-0.1.1.tgz',
+31 verbose addRemoteTarball   '81fb1b51664696d8625fb6e3b87991408dc6c614' ]
+32 info retry fetch attempt 1 at 10:30:07
+33 verbose fetch to= /Users/msl/tmp/npm-17713-CJXe4I0r/registry.npmjs.org/jump/-/jump-0.1.1.tgz
+34 http GET https://registry.npmjs.org/jump/-/jump-0.1.1.tgz
+35 http 200 https://registry.npmjs.org/jump/-/jump-0.1.1.tgz
+36 silly lockFile c36a6605-ry-npmjs-org-jump-jump-0-1-1-tgz https://registry.npmjs.org/jump/-/jump-0.1.1.tgz
+37 silly lockFile c36a6605-ry-npmjs-org-jump-jump-0-1-1-tgz https://registry.npmjs.org/jump/-/jump-0.1.1.tgz
+38 silly lockFile 4d35a8c2-jump-0-1-1 jump@0.1.1
+39 silly lockFile 4d35a8c2-jump-0-1-1 jump@0.1.1
+40 silly lockFile a18776b1-jump jump@
+41 silly lockFile a18776b1-jump jump@
+42 silly resolved [ { author:
+42 silly resolved      { name: 'Adrien Friggeri',
+42 silly resolved        email: 'adrien@friggeri.net',
+42 silly resolved        url: 'http://friggeri.net' },
+42 silly resolved     name: 'jump',
+42 silly resolved     description: 'autosuggest change directory',
+42 silly resolved     version: '0.1.1',
+42 silly resolved     repository: { url: 'git://github.com/afriggeri/jump.git' },
+42 silly resolved     directories: { lib: '.' },
+42 silly resolved     engines: { node: '*' },
+42 silly resolved     dependencies:
+42 silly resolved      { charm: 'https://github.com/afriggeri/node-charm/tarball/master',
+42 silly resolved        commander: 'https://github.com/afriggeri/commander.js/tarball/master' },
+42 silly resolved     devDependencies: {},
+42 silly resolved     bin: { jump: './jump.js' },
+42 silly resolved     preferGlobal: true,
+42 silly resolved     _npmUser: { name: 'afriggeri', email: 'adrien@friggeri.net' },
+42 silly resolved     _id: 'jump@0.1.1',
+42 silly resolved     optionalDependencies: {},
+42 silly resolved     _engineSupported: true,
+42 silly resolved     _npmVersion: '1.1.21',
+42 silly resolved     _nodeVersion: 'v0.8.0',
+42 silly resolved     _defaultsLoaded: true,
+42 silly resolved     dist:
+42 silly resolved      { shasum: '81fb1b51664696d8625fb6e3b87991408dc6c614',
+42 silly resolved        tarball: 'http://registry.npmjs.org/jump/-/jump-0.1.1.tgz' },
+42 silly resolved     readme: '#Installation\n\n    npm -g install jump\n    jump >> ~/.bash_profile  # or ~/.zshrc\n    source ~/.bash_profile\n\n#Usage\n\nPretty simple, `jump` is aliased to `j` :\n\n    j\n\nType a few letters, `jump` autosuggests 5 results, move with arrows, return to select.\n\n`jump` also supports a few options:\n\n    jump [options]\n\n      Options:\n\n        -h, --help       output usage information\n        -v, --version    output the version number\n        -n --number <n>  number of suggestions\n        -a --auto        automatically change directory if only one suggestion\n    \n\n`jump` uses spotlight (`mdfind`) behind the scenes, probably won\'t work on anything but osx.\n\n#Service\n\nA service is included so that it is possible to bind a keyboard shortcut to starting jump (e.g. `^T`).\n\n#TODO\n\nSort by usage would be nice.\n\n#License\nCopyright (C) 2011 by Adrien Friggeri\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.',
+42 silly resolved     maintainers: [ [Object] ],
+42 silly resolved     _shasum: '81fb1b51664696d8625fb6e3b87991408dc6c614',
+42 silly resolved     _from: 'jump@',
+42 silly resolved     _resolved: 'https://registry.npmjs.org/jump/-/jump-0.1.1.tgz' } ]
+43 info install jump@0.1.1 into /usr/local/lib
+44 info installOne jump@0.1.1
+45 info /usr/local/lib/node_modules/jump unbuild
+46 verbose tar unpack /Users/msl/.npm/jump/0.1.1/package.tgz
+47 silly lockFile 054588d8--usr-local-lib-node-modules-jump tar:///usr/local/lib/node_modules/jump
+48 verbose lock tar:///usr/local/lib/node_modules/jump /Users/msl/.npm/054588d8--usr-local-lib-node-modules-jump.lock
+49 silly lockFile 91ffece6-s-msl-npm-jump-0-1-1-package-tgz tar:///Users/msl/.npm/jump/0.1.1/package.tgz
+50 verbose lock tar:///Users/msl/.npm/jump/0.1.1/package.tgz /Users/msl/.npm/91ffece6-s-msl-npm-jump-0-1-1-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry .npmignore
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm extractEntry jump.js
+56 silly gunzTarPerm extractEntry Jump.workflow/Contents/document.wflow
+57 silly gunzTarPerm extractEntry Jump.workflow/Contents/Info.plist
+58 silly gunzTarPerm extractEntry Jump.workflow/Contents/QuickLook/Preview.png
+59 silly gunzTarPerm extractEntry lib/find.js
+60 silly gunzTarPerm extractEntry lib/suggestions.js
+61 silly lockFile 054588d8--usr-local-lib-node-modules-jump tar:///usr/local/lib/node_modules/jump
+62 silly lockFile 054588d8--usr-local-lib-node-modules-jump tar:///usr/local/lib/node_modules/jump
+63 silly lockFile 91ffece6-s-msl-npm-jump-0-1-1-package-tgz tar:///Users/msl/.npm/jump/0.1.1/package.tgz
+64 silly lockFile 91ffece6-s-msl-npm-jump-0-1-1-package-tgz tar:///Users/msl/.npm/jump/0.1.1/package.tgz
+65 info preinstall jump@0.1.1
+66 verbose readDependencies using package.json deps
+67 verbose readDependencies using package.json deps
+68 verbose cache add [ 'charm@https://github.com/afriggeri/node-charm/tarball/master',
+68 verbose cache add   null ]
+69 verbose cache add name=undefined spec="charm@https://github.com/afriggeri/node-charm/tarball/master" args=["charm@https://github.com/afriggeri/node-charm/tarball/master",null]
+70 verbose parsed url { protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: 'charm@https://github.com/afriggeri/node-charm/tarball/master',
+70 verbose parsed url   path: 'charm@https://github.com/afriggeri/node-charm/tarball/master',
+70 verbose parsed url   href: 'charm@https://github.com/afriggeri/node-charm/tarball/master' }
+71 verbose cache add [ 'commander@https://github.com/afriggeri/commander.js/tarball/master',
+71 verbose cache add   null ]
+72 verbose cache add name=undefined spec="commander@https://github.com/afriggeri/commander.js/tarball/master" args=["commander@https://github.com/afriggeri/commander.js/tarball/master",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'commander@https://github.com/afriggeri/commander.js/tarball/master',
+73 verbose parsed url   path: 'commander@https://github.com/afriggeri/commander.js/tarball/master',
+73 verbose parsed url   href: 'commander@https://github.com/afriggeri/commander.js/tarball/master' }
+74 verbose cache add name="charm" spec="https://github.com/afriggeri/node-charm/tarball/master" args=["charm","https://github.com/afriggeri/node-charm/tarball/master"]
+75 verbose parsed url { protocol: 'https:',
+75 verbose parsed url   slashes: true,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: 'github.com',
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: 'github.com',
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '/afriggeri/node-charm/tarball/master',
+75 verbose parsed url   path: '/afriggeri/node-charm/tarball/master',
+75 verbose parsed url   href: 'https://github.com/afriggeri/node-charm/tarball/master' }
+76 silly lockFile 5dc9f022-iggeri-node-charm-tarball-master https://github.com/afriggeri/node-charm/tarball/master
+77 verbose lock https://github.com/afriggeri/node-charm/tarball/master /Users/msl/.npm/5dc9f022-iggeri-node-charm-tarball-master.lock
+78 verbose cache add name="commander" spec="https://github.com/afriggeri/commander.js/tarball/master" args=["commander","https://github.com/afriggeri/commander.js/tarball/master"]
+79 verbose parsed url { protocol: 'https:',
+79 verbose parsed url   slashes: true,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: 'github.com',
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: 'github.com',
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '/afriggeri/commander.js/tarball/master',
+79 verbose parsed url   path: '/afriggeri/commander.js/tarball/master',
+79 verbose parsed url   href: 'https://github.com/afriggeri/commander.js/tarball/master' }
+80 silly lockFile 50bc367c-geri-commander-js-tarball-master https://github.com/afriggeri/commander.js/tarball/master
+81 verbose lock https://github.com/afriggeri/commander.js/tarball/master /Users/msl/.npm/50bc367c-geri-commander-js-tarball-master.lock
+82 verbose addRemoteTarball [ 'https://github.com/afriggeri/node-charm/tarball/master',
+82 verbose addRemoteTarball   null ]
+83 verbose addRemoteTarball [ 'https://github.com/afriggeri/commander.js/tarball/master',
+83 verbose addRemoteTarball   null ]
+84 info retry fetch attempt 1 at 10:30:07
+85 verbose fetch to= /Users/msl/tmp/npm-17713-CJXe4I0r/github.com/afriggeri/commander.js/tarball/master
+86 info retry fetch attempt 1 at 10:30:07
+87 verbose fetch to= /Users/msl/tmp/npm-17713-CJXe4I0r/github.com/afriggeri/node-charm/tarball/master
+88 http GET https://github.com/afriggeri/commander.js/tarball/master
+89 http GET https://github.com/afriggeri/node-charm/tarball/master
+90 http 404 https://github.com/afriggeri/node-charm/tarball/master
+91 http 404 https://github.com/afriggeri/commander.js/tarball/master
+92 error fetch failed https://github.com/afriggeri/node-charm/tarball/master
+93 silly lockFile 5dc9f022-iggeri-node-charm-tarball-master https://github.com/afriggeri/node-charm/tarball/master
+94 silly lockFile 5dc9f022-iggeri-node-charm-tarball-master https://github.com/afriggeri/node-charm/tarball/master
+95 verbose about to build /usr/local/lib/node_modules/jump
+96 info /usr/local/lib/node_modules/jump unbuild
+97 info preuninstall jump@0.1.1
+98 info uninstall jump@0.1.1
+99 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild jump@0.1.1
+100 verbose /usr/local/bin,[object Object] binRoot
+101 info postuninstall jump@0.1.1
+102 error Error: 404 Not Found
+102 error     at WriteStream.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/fetch.js:58:12)
+102 error     at WriteStream.emit (events.js:117:20)
+102 error     at fs.js:1603:14
+102 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:105:5
+102 error     at Object.oncomplete (fs.js:107:15)
+103 error If you need help, you may report this *entire* log,
+103 error including the npm and node versions, at:
+103 error     <http://github.com/npm/npm/issues>
+104 error System Darwin 13.3.0
+105 error command "node" "/usr/local/bin/npm" "install" "jump" "-g"
+106 error cwd /Users/msl/Downloads/h5bp-mobile-boilerplate-15bb044
+107 error node -v v0.10.29
+108 error npm -v 1.4.14
+109 verbose exit [ 1, true ]
