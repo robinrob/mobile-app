@@ -1,2 +1,2 @@
-/Users/robinsmith/Programming/robin/javascript/hello/platforms/android/CordovaLib/ant-build/AndroidManifest.xml : \
-/Users/robinsmith/Programming/robin/javascript/hello/platforms/android/CordovaLib/AndroidManifest.xml \
+/Users/msl/Programming/robin/javascript/projects/mobile-app/platforms/android/CordovaLib/ant-build/AndroidManifest.xml : \
+/Users/msl/Programming/robin/javascript/projects/mobile-app/platforms/android/CordovaLib/AndroidManifest.xml \

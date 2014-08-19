@@ -1,2 +1,2 @@
-/Users/robinsmith/Programming/robin/javascript/hello/platforms/android/ant-build/AndroidManifest.xml : \
-/Users/robinsmith/Programming/robin/javascript/hello/platforms/android/AndroidManifest.xml \
+/Users/msl/Programming/robin/javascript/projects/mobile-app/platforms/android/ant-build/AndroidManifest.xml : \
+/Users/msl/Programming/robin/javascript/projects/mobile-app/platforms/android/AndroidManifest.xml \
